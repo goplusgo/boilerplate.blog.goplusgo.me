@@ -1,0 +1,11 @@
+# Site settings
+title: Joey Yu's Blog
+email: joeyyu.van@gmail.com
+author: Joey Yu
+description:
+url: https://blog.goplusgo.me
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: assets/css
