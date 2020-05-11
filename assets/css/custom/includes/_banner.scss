@@ -1,0 +1,16 @@
+#banner{
+  position: relative;
+  background: url('../images/banner.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 150px;
+
+  .primary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

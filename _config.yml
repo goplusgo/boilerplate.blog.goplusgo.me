@@ -9,3 +9,7 @@ url: https://blog.goplusgo.me
 permalink: :title/
 sass:
   sass_dir: assets/css
+
+# Social icons
+show_social_icons: true
+github_username: goplusgo
