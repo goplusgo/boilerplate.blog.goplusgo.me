@@ -4,7 +4,7 @@
       <div class="col">
         {% for post in paginator.posts %}
           <div>
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <p class="text-info lead">
               {{ post.date | date: "%b %-d, %Y" }}
             </p>
