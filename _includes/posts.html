@@ -1,24 +1,18 @@
-<section id="posts" class="py-5 bg-light">
-  <div class="container">
-    <div class="row bg-white">
-      <div class="col">
-        {% for post in paginator.posts %}
-          <div>
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            <p class="text-info lead">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </p>
+<section id="posts">
+  {% for post in paginator.posts %}
+    <div>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <p class="text-info lead">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </p>
 
-            <p>
-              {% if post.summary %}
-                {{ post.summary }}
-              {% else %}
-                {{ post.excerpt }}
-              {% endif %}
-            </p>
-          </div>
-        {% endfor %}
-      </div>
+      <p>
+        {% if post.summary %}
+          {{ post.summary }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+      </p>
     </div>
-  </div>
+  {% endfor %}
 </section>
