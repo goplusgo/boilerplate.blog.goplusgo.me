@@ -16,7 +16,7 @@ github_username: goplusgo
 
 # plugins
 plugins: [jekyll-paginate]
-paginate: 3
+paginate: 4
 
 # Sidebar
 sidebar-avatar: /assets/images/avatar.jpg
