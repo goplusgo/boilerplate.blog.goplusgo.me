@@ -1,0 +1,14 @@
+<section id="tags">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col tags">
+        <h2 class="text-primary">Tags</h2>
+        {% for tag in site.tags %}
+          <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+            {{ tag[0] }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
