@@ -1,13 +1,21 @@
 <section id="tags">
   <div class="container py-3">
     <div class="row">
-      <div class="col tags">
+      <div class="col">
         <h2 class="text-primary">Tags</h2>
-        {% for tag in site.tags %}
-          <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-            {{ tag[0] }}
+        <div class="tags">
+          <a data-encode="">
+            Show All
+            <sup>{{site.posts.size}}</sup>
           </a>
-        {% endfor %}
+          {% for tag in site.tags %}
+            <a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+          data-encode="{{ tag[0] | strip | url_encode }}" href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+              {{ tag[0] }}
+              <sup>{{tag[1].size}}</sup>
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

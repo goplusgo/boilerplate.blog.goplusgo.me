@@ -1,28 +1,23 @@
-.tags {
-  margin-bottom: -5px;
-}
-.tags a,
-.tags .tag {
-  display: inline-block;
-  border: 1px solid $teal;
-  border-radius: 999em;
-  padding: 0 10px 0 10px;
-  margin-right: 5px;
-  color: $info;
-  line-height: 24px;
-  font-size: 12px;
-  text-decoration: none;
-  cursor: pointer;
-}
-.tags a > sup,
-.tags .tag > sup {
-  margin-left: -2px;
-  font-weight: 700;
-}
-.tags a:hover,
-.tags .tag:hover,
-.tags a:active,
-.tags .tag:active {
-  color: $orange;
-  border-color: $orange;
+#tags {
+  .tags {
+    margin-bottom: -5px;
+  }
+  .tags a {
+    display: inline-block;
+    border: 1px solid $teal;
+    border-radius: 999em;
+    padding: 0 10px 0 10px;
+    margin-right: 5px;
+    color: $info;
+    line-height: 24px;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .tags a:hover,
+  .tags a:active {
+    color: $orange;
+    border-color: $orange;
+  }
 }
