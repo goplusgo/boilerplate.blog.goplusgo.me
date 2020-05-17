@@ -1,7 +1,9 @@
 ---
 layout: post
 title: A Sample Post
-tag: demo
+tags:
+ - demo
+ - sample
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 
