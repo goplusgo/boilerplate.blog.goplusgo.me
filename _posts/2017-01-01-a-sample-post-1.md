@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Sample Post
+subtitle: This is the first sample post created in 2017
 tags:
  - demo
  - sample

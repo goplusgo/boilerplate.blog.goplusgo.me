@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Sample Post
+subtitle: This is the second sample post created in 2018
 tag: sample
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---

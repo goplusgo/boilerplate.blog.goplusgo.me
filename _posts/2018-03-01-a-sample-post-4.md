@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Sample Post
+subtitle: Life continues
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 tag: sample
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 中文标题 A sample post with many elements
+subtitle: 这是一个副标题
 tag: 中文
 summary: We'll use this post to work out what we need to do to style an individual posts... let's get going!
 ---

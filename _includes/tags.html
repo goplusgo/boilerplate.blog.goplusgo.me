@@ -46,7 +46,7 @@ Credits to: https://github.com/Huxpro/huxpro.github.io
 
       {% comment %} group by year {% endcomment %}
       {%- assign _currentdate = _article.date | date: '%Y' -%}
-
+      
       {%- if _currentdate != _date -%}
         {%- unless forloop.first -%}</section>{%- endunless -%}
         <section>
@@ -58,7 +58,7 @@ Credits to: https://github.com/Huxpro/huxpro.github.io
 
       <div class="post-preview item" data-tags="{{ _tags }}">
           <a href="{{ _article.url | prepend: site.baseurl }}">
-            <h4 class="lead post-title">
+            <h4 class="post-title">
               {{ _article.title }}
             </h4>
             {% if _article.subtitle %}
