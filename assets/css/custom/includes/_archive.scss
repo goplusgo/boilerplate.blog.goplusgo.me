@@ -1,27 +1,6 @@
-#tags {
+#archive {
   .row section {
     width: 100%;
-  }
-  .tags {
-    margin-bottom: -5px;
-  }
-  .tags a {
-    display: inline-block;
-    border: 1px solid $teal;
-    border-radius: 999em;
-    padding: 0 10px 0 10px;
-    margin-right: 5px;
-    color: $info;
-    line-height: 24px;
-    font-size: 12px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .tags a:hover,
-  .tags a:active {
-    color: $orange;
-    border-color: $orange;
   }
   .row section {
     margin-top: 30px;

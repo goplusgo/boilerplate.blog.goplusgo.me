@@ -1,19 +1,28 @@
 <section>
   <hr>
   <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
-  <div class="card">
-    {% if site.sidebar-avatar %}
-      <img class="card-img-top" src="{{site.sidebar-avatar}}" />
-    {% endif %}
-    {% if site.sidebar-about-description %}
-      <div class="card-body">
-        <p class="card-text">{{site.sidebar-about-description}}</p>
-        <p class="card-text">
-          <a target="_blank" href="https://goplusgo.me">
-            <i class="fas fa-external-link-alt"></i> My Personal Website
-          </a>
-        </p>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        {% if site.sidebar-avatar %}
+          <img class="card-img-top" src="{{site.sidebar-avatar}}" />
+        {% endif %}
+        {% if site.sidebar-about-description %}
+          <div class="card-body">
+            <p class="card-text">{{site.sidebar-about-description}}</p>
+            <p class="card-text">
+              <a target="_blank" href="https://goplusgo.me">
+                <i class="fas fa-external-link-alt"></i> My Personal Website
+              </a>
+            </p>
+          </div>
+        {% endif %}
       </div>
-    {% endif %}
+    </div>
+  </div>
+  <div class="row pt-3">
+    <div class="col">
+      {% include featured-tags.html %}
+    </div>
   </div>
 </section>
