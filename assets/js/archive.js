@@ -38,8 +38,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
   $(document).ready(function() {
     var $tags = $('.js-tags');
-    var $articleTags = $tags.find('.tag-button');
-    var $tagShowAll = $tags.find('.tag-button--all');
+    var $articleTags = $tags.find('.tag');
+    var $tagShowAll = $tags.find('.tag-all');
     var $result = $('.js-result');
     var $sections = $result.find('section');
     var sectionArticles = []

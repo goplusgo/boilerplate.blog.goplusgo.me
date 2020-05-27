@@ -12,13 +12,13 @@ Credits to: https://github.com/Huxpro/huxpro.github.io
     <div class="row">
       <div class="col">
         <div class="tags js-tags">
-          <a class="tag-button--all" data-encode="">
+          <a class="tag tag-all" data-encode="">
             Show All
             <sup>{{site.posts.size}}</sup>
           </a>
           {% capture tags %}
           {% for tag in site.tags %}
-            <a class="tag-button"
+            <a class="tag"
             data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
             data-encode="{{ tag[0] | strip | url_encode }}"
             title="{{ tag[0] }}"
