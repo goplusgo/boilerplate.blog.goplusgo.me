@@ -4,8 +4,9 @@
       <p class="lead text-info">
         {{ page.date | date: "%b %-d, %Y" }}
       </p>
-      <h1>{{ page.title }}</h1>
-      <article>
+      <h2>{{ page.title }}</h2>
+      <h4 class="font-italic">{{ page.subtitle }}</h4>
+      <article class="pt-5">
         {{ content }}
       </article>
     </div>

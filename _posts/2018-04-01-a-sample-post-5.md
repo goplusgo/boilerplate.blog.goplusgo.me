@@ -6,11 +6,6 @@ tag: 中文
 summary: We'll use this post to work out what we need to do to style an individual posts... let's get going!
 ---
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-
 A <a href="#" target="_blank">link</a>
 
 ##### Terminal
