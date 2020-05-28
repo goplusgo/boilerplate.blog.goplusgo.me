@@ -1,7 +1,6 @@
 #post {
   h1, h2, h3, h4 {
     color: $primary;
-    padding-top: 10px;
   }
   img {
     display: block;
@@ -38,6 +37,13 @@
         color: $code-text-color;
       }
     }
+  }
+
+  .no-select-button {
+    .highlight {
+      border-radius: 6px !important;
+    }
+
   }
   
   // copy btn style
