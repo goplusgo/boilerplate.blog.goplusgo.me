@@ -3,7 +3,7 @@
     <div class="col">
       <h2 class="text-capitalize">{{ page.title }}</h2>
       <h4 class="font-italic">{{ page.subtitle }}</h4>
-      <p class="lead text-info">
+      <p class="font-weight-normal text-info">
         {{ page.date | date: "%b %-d, %Y" }}
         <span class="tags float-right">
           {% for tag in page.tags %}

@@ -5,4 +5,10 @@
       color: $info;
     }
   }
+  .post-content-preview {
+    color: $secondary;
+    &:hover {
+      color: $info;
+    }
+  }
 }
