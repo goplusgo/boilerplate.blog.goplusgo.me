@@ -22,4 +22,11 @@
       {% include featured-tags.html %}
     </div>
   </div>
+  {% if site.show_search_container %}
+  <div class="row">
+    <div class="col pt-4">
+      {% include search.html %}
+    </div>
+  </div>
+  {% endif %}
 </section>

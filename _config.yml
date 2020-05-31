@@ -32,3 +32,6 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 disqus:
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: blog-goplusgo-me
+
+# Search
+show_search_container: false
