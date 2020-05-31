@@ -6,33 +6,31 @@ tag: 中文
 summary: We'll use this post to work out what we need to do to style an individual posts... let's get going!
 ---
 
-A <a href="#" target="_blank">link</a>
+A [link](https://goplusgo.me)
 
-##### Terminal
-{% highlight Bash %}
+###### Terminal
+```bash
 A terminal command
-{% endhighlight %}
+```
 
-##### some html
-{% highlight HTML %}
+###### some html
+```html
 <div class="container py5">
   <p>Lorem ipsum</p>
 </div>
-{% endhighlight %}
+```
 
-##### some javascript
-{% highlight JavaScript %}
+###### some javascript
+```javascript
 $(document).ready(function() {
   console.log('hello');
 });
-{% endhighlight %}
+```
 
 A code section without any header
-<div class="no-select-button">
-{% highlight HTML %}
+```html
 <span>A small HTML snippet</span>
-{% endhighlight %}
-</div>
+```
 
 An image
-<img src="https://jekyllrb.com/img/logo-2x.png" class="img-fluid"/>
+![alt text](https://jekyllrb.com/img/logo-2x.png)

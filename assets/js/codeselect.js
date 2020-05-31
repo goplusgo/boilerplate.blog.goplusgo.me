@@ -1,7 +1,7 @@
 // adapted from https://stackoverflow.com/a/48078807/1217368
 $(document).ready(function() {
-   $('.highlight').each(function(i) {
-      if (!$(this).parent().hasClass('no-select-button')) {
+   $('div.highlight').each(function(i) {
+      if ($(this).parent().prev().is("h6")) {
 
         // create an id for the current code section
         var currentId = "codeblock" + (i + 1);
@@ -17,6 +17,8 @@ $(document).ready(function() {
         btn.setAttribute('data-clipboard-target', '#' + currentId);
         btn.innerHTML = '<i class="far fa-copy fa"></i>';
         this.insertBefore(btn, this.firstChild);
+      } else {
+        $(this).addClass("code-block-without-title");
       }
     });
 

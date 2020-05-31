@@ -16,7 +16,7 @@
    * STYLES FOR DISPLAYING CODE
    ******************************/
   // heading style for a code section
-  h5 {
+  h6 {
     background: none repeat scroll 0% 0% $code-heading-background;
     font-family: monospace;
     font-size: 13px;
@@ -39,11 +39,11 @@
     }
   }
 
-  .no-select-button {
+  .code-block-without-title {
+    border-radius: 6px !important;
     .highlight {
       border-radius: 6px !important;
     }
-
   }
   
   // copy btn style
